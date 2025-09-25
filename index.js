@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Remote Work Viet!');
+  res.send('Chào mừng đến với Remote Work Việt!');
 });
 
 app.listen(PORT, () => {
