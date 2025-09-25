@@ -1,0 +1,17 @@
+{
+  "name": "remote-work-viet",
+  "version": "1.0.0",
+  "description": "Nền tảng trực tuyến kết nối người tìm việc và nhà tuyển dụng",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "body-parser": "^1.19.0"
+  }
+}
