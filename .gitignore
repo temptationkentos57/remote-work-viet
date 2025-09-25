@@ -5,3 +5,6 @@ dist/
 *.log
 coverage/
 built_files/
+*.tmp
+Thumbs.db
+/.vscode/
