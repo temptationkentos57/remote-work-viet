@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/remote-work-viet';
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB successfully!'))
   .catch(err => console.error('Unable to connect to MongoDB:', err));
 
